@@ -1,0 +1,16 @@
+﻿<h2>List of user</h2>
+<table class="table">
+    <tr>
+        <td>username</td>
+        <td>email</td>
+    </tr>
+
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.username </td>
+            <td>@user.email </td>
+        </tr>
+
+    }
+</table>
