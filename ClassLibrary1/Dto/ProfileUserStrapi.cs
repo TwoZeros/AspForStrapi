@@ -9,6 +9,7 @@ namespace AspforStrapi.Services.Contract.Dto
         public string jwt { get; set; }
         public string username { get; set; }
         public string email { get; set; }
+        public string birthday { get; set; }
         public RoleStrapi role { get; set; }
 
     }
